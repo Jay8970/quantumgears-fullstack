@@ -1,0 +1,28 @@
+﻿# Node / React
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Env & local config
+.env
+*.env
+.env.*.local
+
+# Build / cache
+build/
+dist/
+coverage/
+.tmp/
+.temp/
+.cache/
+**/.cache/
+frontend/build/
+backend/build/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
